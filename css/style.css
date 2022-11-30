@@ -101,10 +101,23 @@ body {
 }
 .image-wrapper {
 	position: relative;
-	width: 800px;
+/*	width: 800px; */
 }
 .img-text {
 	position: absolute;
 	top: 50px;
-	left: 100px;
+	right: 100px;
+	color: red;
+}
+.image {
+	width: 100%;
+}
+/*section 3*/
+.icon {
+	width: 50px;
+}
+.icon-wrapper {
+	position: fixed;
+	right: 30px;
+	bottom: 50px;
 }
